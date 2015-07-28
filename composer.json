@@ -1,9 +1,10 @@
 {
     "name": "dmytro.borysovskiy/snob",
-    "description": "Snob framework",
+    "description": "snob framework",
+    "type": "library",
     "authors": [
         {
-            "name": "Dmytro borysovskiy",
+            "name": "Dmytro Borysovskiy",
             "email": "bbbara10@gmail.com"
         }
     ],
