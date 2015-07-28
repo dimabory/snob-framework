@@ -1,0 +1,1276 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Docs For Class FrontController</title>
+	<link rel="stylesheet" type="text/css" href="../media/style.css">
+	<meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'/>
+</head>
+<body>
+
+<table border="0" cellspacing="0" cellpadding="0" height="48" width="100%">
+  <tr>
+	<td class="header-top-left"><img src="../media/logo.png" border="0" alt="phpDocumentor " /></td>
+    <td class="header-top-right">lib<br /><div class="header-top-right-subpackage"></div></td>
+  </tr>
+  <tr><td colspan="2" class="header-line"><img src="../media/empty.png" width="1" height="1" border="0" alt=""  /></td></tr>
+  <tr>
+    <td colspan="2" class="header-menu">
+      
+                        
+                                                                                                                                      		[ <a href="../classtrees_lib.html" class="menu">class tree: lib</a> ]
+		[ <a href="../elementindex_lib.html" class="menu">index: lib</a> ]
+            [ <a href="../elementindex.html" class="menu">all elements</a> ]
+    </td>
+  </tr>
+  <tr><td colspan="2" class="header-line"><img src="../media/empty.png" width="1" height="1" border="0" alt=""  /></td></tr>
+</table>
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="195" class="menu">
+		<div class="package-title">lib</div>
+      <b>Packages:</b><br />
+  <div class="package">
+              <a href="../li_lib.html">lib</a><br />
+              <a href="../li_lib-application.html">lib-application</a><br />
+              <a href="../li_lib-application-resources.html">lib-application-resources</a><br />
+              <a href="../li_lib-controller.html">lib-controller</a><br />
+              <a href="../li_lib-database.html">lib-database</a><br />
+              <a href="../li_lib-exception.html">lib-exception</a><br />
+              <a href="../li_lib-routing.html">lib-routing</a><br />
+              <a href="../li_lib-view.html">lib-view</a><br />
+              <a href="../li_lib-view-adapters.html">lib-view-adapters</a><br />
+      	</div>
+      <br />
+                        <b>Files:</b><br />
+        <div class="package">
+				<span style="padding-left: 1em;"><a href="_todo---www---todo-application.todo---lib---App.php.html">App.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="_todo---www---todo-application.todo---lib---Autoloader.php.html">Autoloader.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="_todo---www---todo-application.todo---lib---Config.php.html">Config.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="_todo---www---todo-application.todo---lib---FrontController.php.html">FrontController.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="_todo---www---todo-application.todo---lib---Locale.php.html">Locale.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="_todo---www---todo-application.todo---lib---PluginInterface.php.html">PluginInterface.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="_todo---www---todo-application.todo---lib---Registry.php.html">Registry.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="_todo---www---todo-application.todo---lib---Request.php.html">Request.php</a></span><br />
+	  </div>
+            <br />
+            <b>Interfaces:</b><br />
+        <div class="package">
+		    		<a href="PluginInterface.html">PluginInterface</a>    	 <br />
+	  </div>
+                  <b>Classes:</b><br />
+        <div class="package">
+		    		<a href="App.html">App</a>    	 <br />
+	    		<a href="Autoloader.html">Autoloader</a>    	 <br />
+	    		<a href="Config.html">Config</a>    	 <br />
+	    		<a href="../lib/FrontController.html">FrontController</a>    	 <br />
+	    		<a href="Locale.html">Locale</a>    	 <br />
+	    		<a href="Registry.html">Registry</a>    	 <br />
+	    		<a href="Request.html">Request</a>    	 <br />
+	  </div>
+                </td>
+    <td>
+      <table cellpadding="10" cellspacing="0" width="100%" border="0"><tr><td valign="top">
+
+<h1>Class: FrontController</h1>
+Source Location: /todo/www/todo-application.todo/lib/FrontController.php<br /><br />
+
+<h2 class="class-name">Class FrontController</h2>
+
+<a name="sec-description"></a>
+<div class="info-box">
+	<div class="info-box-title">Class Overview</div>
+	<div class="nav-bar">
+					<span class="disabled">Class Overview</span>
+						
+											| <a href="#sec-var-summary">Property Summary</a> | <a href="#sec-vars">Properties Detail</a>
+														| <a href="#sec-method-summary">Method Summary</a> | <a href="#sec-methods">Methods Detail</a>
+								</div>
+	<div class="info-box-body">
+		<table width="100%" border="0">
+		<tr><td valign="top" width="60%" class="class-overview">
+
+        		<p align="center" class="short-description"><strong>Class FrontController
+</strong></p>
+
+		<p class="notes">
+			Located in <a class="field" href="_todo---www---todo-application.todo---lib---FrontController.php.html">/todo/www/todo-application.todo/lib/FrontController.php</a> [<span class="field">line 17</span>]
+		</p>
+
+		
+		<pre></pre>
+
+		
+		
+		
+		</td>
+
+				<td valign="top" width="20%" class="class-overview">
+		<p align="center" class="short-description"><strong><a href="#sec_vars">Properties</a></strong></p>
+		<ul>
+		  		  <li><a href="../lib/FrontController.html#var$action">$action</a></li>
+		  		  <li><a href="../lib/FrontController.html#var$controller">$controller</a></li>
+		  		  <li><a href="../lib/FrontController.html#var$controllerDir">$controllerDir</a></li>
+		  		  <li><a href="../lib/FrontController.html#var$instance">$instance</a></li>
+		  		  <li><a href="../lib/FrontController.html#var$layout">$layout</a></li>
+		  		  <li><a href="../lib/FrontController.html#var$plugins">$plugins</a></li>
+		  		  <li><a href="../lib/FrontController.html#var$registry">$registry</a></li>
+		  		  <li><a href="../lib/FrontController.html#var$request">$request</a></li>
+		  		</ul>
+		</td>
+		
+				<td valign="top" width="20%" class="class-overview">
+		<p align="center" class="short-description"><strong><a href="#sec_methods">Methods</a></strong></p>
+		<ul>
+		  		  <li><a href="../lib/FrontController.html#method__construct">__construct</a></li>
+		  		  <li><a href="../lib/FrontController.html#methoddispatchView">dispatchView</a></li>
+		  		  <li><a href="../lib/FrontController.html#methodgetInstance">getInstance</a></li>
+		  		  <li><a href="../lib/FrontController.html#methodgetLayout">getLayout</a></li>
+		  		  <li><a href="../lib/FrontController.html#methodgetRequest">getRequest</a></li>
+		  		  <li><a href="../lib/FrontController.html#methodrun">run</a></li>
+		  		  <li><a href="../lib/FrontController.html#methodsetAction">setAction</a></li>
+		  		  <li><a href="../lib/FrontController.html#methodsetController">setController</a></li>
+		  		  <li><a href="../lib/FrontController.html#methodsetControllerDirectory">setControllerDirectory</a></li>
+		  		  <li><a href="../lib/FrontController.html#methodsetLayout">setLayout</a></li>
+		  		  <li><a href="../lib/FrontController.html#methodsetPlugins">setPlugins</a></li>
+		  		  <li><a href="../lib/FrontController.html#methodsetRequest">setRequest</a></li>
+		  		  <li><a href="../lib/FrontController.html#method_dispatch">_dispatch</a></li>
+		  		  <li><a href="../lib/FrontController.html#method_dispatchAction">_dispatchAction</a></li>
+		  		  <li><a href="../lib/FrontController.html#method_displayView">_displayView</a></li>
+		  		  <li><a href="../lib/FrontController.html#method_routePlugins">_routePlugins</a></li>
+		  		  <li><a href="../lib/FrontController.html#method__clone">__clone</a></li>
+		  		</ul>
+		</td>
+		
+		</tr></table>
+		<div class="top">[ <a href="#top">Top</a> ]</div>
+	</div>
+</div>
+
+
+
+
+	<a name="sec-var-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Property Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Class Overview</a>
+									| <span class="disabled">Property Summary</span> | <a href="#sec-vars">Properties Detail</a>
+												| <a href="#sec-method-summary">Method Summary</a> | <a href="#sec-methods">Methods Detail</a>
+							    				</div>
+		<div class="info-box-body">
+			<div class="var-summary">
+			<table border="0" cellspacing="0" cellpadding="0" class="var-summary">
+																												<div class="var-title">
+					<tr><td class="var-title">static <span class="var-type-summary"><a href="../lib/FrontController.html">FrontController</a></span>&nbsp;&nbsp;</td>
+					<td class="var-title"><a href="#$instance" title="details" class="var-name-summary">$instance</a>&nbsp;&nbsp;</td>
+					<td class="var-summary-description">FrontController instance</td></tr>
+				</div>
+																																								<div class="var-title">
+					<tr><td class="var-title"><span class="var-type-summary">string</span>&nbsp;&nbsp;</td>
+					<td class="var-title"><a href="#$action" title="details" class="var-name-summary">$action</a>&nbsp;&nbsp;</td>
+					<td class="var-summary-description">action</td></tr>
+				</div>
+													<div class="var-title">
+					<tr><td class="var-title"><span class="var-type-summary">\lib\controller\BaseController</span>&nbsp;&nbsp;</td>
+					<td class="var-title"><a href="#$controller" title="details" class="var-name-summary">$controller</a>&nbsp;&nbsp;</td>
+					<td class="var-summary-description">controller instance</td></tr>
+				</div>
+													<div class="var-title">
+					<tr><td class="var-title"><span class="var-type-summary">string</span>&nbsp;&nbsp;</td>
+					<td class="var-title"><a href="#$controllerDir" title="details" class="var-name-summary">$controllerDir</a>&nbsp;&nbsp;</td>
+					<td class="var-summary-description">Directory|ies where controllers are stored</td></tr>
+				</div>
+																			<div class="var-title">
+					<tr><td class="var-title"><span class="var-type-summary">\lib\view\Layout</span>&nbsp;&nbsp;</td>
+					<td class="var-title"><a href="#$layout" title="details" class="var-name-summary">$layout</a>&nbsp;&nbsp;</td>
+					<td class="var-summary-description">Layout instance</td></tr>
+				</div>
+													<div class="var-title">
+					<tr><td class="var-title"><span class="var-type-summary">array</span>&nbsp;&nbsp;</td>
+					<td class="var-title"><a href="#$plugins" title="details" class="var-name-summary">$plugins</a>&nbsp;&nbsp;</td>
+					<td class="var-summary-description">list of plugins</td></tr>
+				</div>
+													<div class="var-title">
+					<tr><td class="var-title"><span class="var-type-summary">Registry::getInstance()</span>&nbsp;&nbsp;</td>
+					<td class="var-title"><a href="#$registry" title="details" class="var-name-summary">$registry</a>&nbsp;&nbsp;</td>
+					<td class="var-summary-description">registry instance</td></tr>
+				</div>
+													<div class="var-title">
+					<tr><td class="var-title"><span class="var-type-summary"><a href="Request.html">Request</a></span>&nbsp;&nbsp;</td>
+					<td class="var-title"><a href="#$request" title="details" class="var-name-summary">$request</a>&nbsp;&nbsp;</td>
+					<td class="var-summary-description">request instance</td></tr>
+				</div>
+										</table>
+			</div>
+			<br /><div class="top">[ <a href="#top">Top</a> ]</div>
+		</div>
+	</div>
+
+	<a name="sec-method-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Method Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Class Overview</a>
+																		| <a href="#sec-var-summary">Property Summary</a> | <a href="#sec-vars">Properties Detail</a>
+							    					| <span class="disabled">Method Summary</span> | <a href="#sec-methods">Methods Detail</a>
+		</div>
+		<div class="info-box-body">
+			<div class="method-summary">
+				<table border="0" cellspacing="0" cellpadding="0" class="method-summary">
+																												<div class="method-definition">
+					<tr><td class="method-definition">static
+											<span class="method-result"><a href="../lib/FrontController.html">FrontController</a></span>&nbsp;&nbsp;
+					</td>
+					<td class="method-definition"><a href="#getInstance" title="details" class="method-name">getInstance</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">getting FrontController instance</td></tr>
+				</div>
+																																																																																																																																				<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">FrontController</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#__construct" title="details" class="method-name">__construct</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">prevent to create FrontController object</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">string|void</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#dispatchView" title="details" class="method-name">dispatchView</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">method to dispatch view</td></tr>
+				</div>
+																								<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">mixed</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#getLayout" title="details" class="method-name">getLayout</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">getting layout instance</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result"><a href="Request.html">Request</a></span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#getRequest" title="details" class="method-name">getRequest</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">getting Request instance</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">void</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#run" title="details" class="method-name">run</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">running application</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">void</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#setAction" title="details" class="method-name">setAction</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">setting action</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">void</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#setController" title="details" class="method-name">setController</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">setting controller instance</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">void</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#setControllerDirectory" title="details" class="method-name">setControllerDirectory</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">setting controller's directory</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">void</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#setLayout" title="details" class="method-name">setLayout</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">setting layout</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">void</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#setPlugins" title="details" class="method-name">setPlugins</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">setting plugins</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">void</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#setRequest" title="details" class="method-name">setRequest</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">setting Request instance</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">\lib\view\ViewAbstract</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#_dispatch" title="details" class="method-name">_dispatch</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">dispatching an HTTP request to a controller/action, after that dispatch controller/action to view</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">bool</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#_dispatchAction" title="details" class="method-name">_dispatchAction</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">method to dispatch action</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">void</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#_displayView" title="details" class="method-name">_displayView</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">displaying view</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">void</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#_routePlugins" title="details" class="method-name">_routePlugins</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">routing plugins</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">void</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#__clone" title="details" class="method-name">__clone</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">prevent to clone FrontController object</td></tr>
+				</div>
+												</table>
+			</div>
+			<br /><div class="top">[ <a href="#top">Top</a> ]</div>
+		</div>
+	</div>
+
+	<a name="sec-vars"></a>
+	<div class="info-box">
+		<div class="info-box-title">Properties</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Class Overview</a>
+													| <a href="#sec-var-summary">Property Summary</a> | <span class="disabled">Properties Detail</span>
+															| <a href="#sec-method-summary">Method Summary</a> | <a href="#sec-methods">Methods Detail</a>
+												</div>
+		<div class="info-box-body">
+			<a name="var$instance" id="$instance"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			static <span class="var-type"><a href="../lib/FrontController.html">FrontController</a></span>&nbsp;&nbsp;
+			<span class="var-name">$instance</span>
+			 = <span class="var-default"> null</span>			<span class="smalllinenumber">[line 41]</span>
+		</span>
+	</div>
+
+	<p align="center" class="short-description"><strong>FrontController instance
+</strong></p>
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Access:</strong>&nbsp;&nbsp;</td><td>protected</td>
+  </tr>
+</table>
+<br />
+
+
+	
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="var$action" id="$action"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">string</span>&nbsp;&nbsp;
+			<span class="var-name">$action</span>
+						<span class="smalllinenumber">[line 35]</span>
+		</span>
+	</div>
+
+	<p align="center" class="short-description"><strong>action
+</strong></p>
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Access:</strong>&nbsp;&nbsp;</td><td>protected</td>
+  </tr>
+</table>
+<br />
+
+
+	
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="var$controller" id="$controller"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">\lib\controller\BaseController</span>&nbsp;&nbsp;
+			<span class="var-name">$controller</span>
+						<span class="smalllinenumber">[line 29]</span>
+		</span>
+	</div>
+
+	<p align="center" class="short-description"><strong>controller instance
+</strong></p>
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Access:</strong>&nbsp;&nbsp;</td><td>protected</td>
+  </tr>
+</table>
+<br />
+
+
+	
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="var$controllerDir" id="$controllerDir"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">string</span>&nbsp;&nbsp;
+			<span class="var-name">$controllerDir</span>
+						<span class="smalllinenumber">[line 23]</span>
+		</span>
+	</div>
+
+	<p align="center" class="short-description"><strong>Directory|ies where controllers are stored
+</strong></p>
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Access:</strong>&nbsp;&nbsp;</td><td>protected</td>
+  </tr>
+</table>
+<br />
+
+
+	
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="var$layout" id="$layout"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">\lib\view\Layout</span>&nbsp;&nbsp;
+			<span class="var-name">$layout</span>
+						<span class="smalllinenumber">[line 53]</span>
+		</span>
+	</div>
+
+	<p align="center" class="short-description"><strong>Layout instance
+</strong></p>
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Access:</strong>&nbsp;&nbsp;</td><td>protected</td>
+  </tr>
+</table>
+<br />
+
+
+	
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="var$plugins" id="$plugins"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">array</span>&nbsp;&nbsp;
+			<span class="var-name">$plugins</span>
+						<span class="smalllinenumber">[line 65]</span>
+		</span>
+	</div>
+
+	<p align="center" class="short-description"><strong>list of plugins
+</strong></p>
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Access:</strong>&nbsp;&nbsp;</td><td>protected</td>
+  </tr>
+</table>
+<br />
+
+
+	
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="var$registry" id="$registry"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">Registry::getInstance()</span>&nbsp;&nbsp;
+			<span class="var-name">$registry</span>
+						<span class="smalllinenumber">[line 59]</span>
+		</span>
+	</div>
+
+	<p align="center" class="short-description"><strong>registry instance
+</strong></p>
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Access:</strong>&nbsp;&nbsp;</td><td>protected</td>
+  </tr>
+</table>
+<br />
+
+
+	
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="var$request" id="$request"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type"><a href="Request.html">Request</a></span>&nbsp;&nbsp;
+			<span class="var-name">$request</span>
+			 = <span class="var-default"> null</span>			<span class="smalllinenumber">[line 47]</span>
+		</span>
+	</div>
+
+	<p align="center" class="short-description"><strong>request instance
+</strong></p>
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Access:</strong>&nbsp;&nbsp;</td><td>protected</td>
+  </tr>
+</table>
+<br />
+
+
+	
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+		</div>
+	</div>
+
+	<a name="sec-methods"></a>
+	<div class="info-box">
+		<div class="info-box-title">Methods</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Class Overview</a>
+																		| <a href="#sec-var-summary">Property Summary</a> | <a href="#sec-vars">Properties Detail</a>
+																	| <a href="#sec-method-summary">Method Summary</a> | <span class="disabled">Methods Detail</span>
+					</div>
+		<div class="info-box-body">
+			<a name='method_detail'></a>
+<a name="methodgetInstance" id="getInstance"><!-- --></a>
+<div class="evenrow">
+
+<div class="method-header">
+	<span class="method-title">static method getInstance</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 71]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>static <a href="../lib/FrontController.html">FrontController</a> getInstance(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>getting FrontController instance
+</strong></p>
+
+	<br />
+	
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+
+<a name="method__construct" id="__construct"><!-- --></a>
+<div class="oddrow">
+
+<div class="method-header">
+	<span class="method-title">Constructor __construct</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 286]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>FrontController __construct(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>prevent to create FrontController object
+</strong></p>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Access:</strong>&nbsp;&nbsp;</td><td>private</td>
+  </tr>
+</table>
+<br />
+
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methoddispatchView" id="dispatchView"><!-- --></a>
+<div class="evenrow">
+
+<div class="method-header">
+	<span class="method-title">dispatchView</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 202]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>string|void dispatchView(
+[$params
+$params = array()]&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>method to dispatch view
+</strong></p>
+
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">$params</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$params:&nbsp;</span></td>
+				<td>
+				<span class="var-description"> array</span>			</td></tr>
+				</table>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Access:</strong>&nbsp;&nbsp;</td><td>protected</td>
+  </tr>
+</table>
+<br />
+
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodgetLayout" id="getLayout"><!-- --></a>
+<div class="oddrow">
+
+<div class="method-header">
+	<span class="method-title">getLayout</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 130]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>mixed getLayout(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>getting layout instance
+</strong></p>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Access:</strong>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+<br />
+
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodgetRequest" id="getRequest"><!-- --></a>
+<div class="evenrow">
+
+<div class="method-header">
+	<span class="method-title">getRequest</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 150]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code><a href="Request.html">Request</a> getRequest(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>getting Request instance
+</strong></p>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Access:</strong>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+<br />
+
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodrun" id="run"><!-- --></a>
+<div class="oddrow">
+
+<div class="method-header">
+	<span class="method-title">run</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 86]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>void run(
+[null
+$request = null]&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>running application
+</strong></p>
+<span class="description"><p>displaying view after full dispatching</p></span>
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">null</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$request:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Access:</strong>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+<br />
+
+<strong>Information Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Throws:</strong>&nbsp;&nbsp;</td><td>\Exception</td>
+  </tr>
+</table>
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodsetAction" id="setAction"><!-- --></a>
+<div class="evenrow">
+
+<div class="method-header">
+	<span class="method-title">setAction</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 189]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>void setAction(
+$action
+$action&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>setting action
+</strong></p>
+
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">$action</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$action:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Access:</strong>&nbsp;&nbsp;</td><td>protected</td>
+  </tr>
+</table>
+<br />
+
+<strong>Information Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Throws:</strong>&nbsp;&nbsp;</td><td>Exception404</td>
+  </tr>
+</table>
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodsetController" id="setController"><!-- --></a>
+<div class="oddrow">
+
+<div class="method-header">
+	<span class="method-title">setController</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 169]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>void setController(
+$controller
+$controller&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>setting controller instance
+</strong></p>
+
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">$controller</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$controller:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Access:</strong>&nbsp;&nbsp;</td><td>protected</td>
+  </tr>
+</table>
+<br />
+
+<strong>Information Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Throws:</strong>&nbsp;&nbsp;</td><td>Exception404</td>
+  </tr>
+</table>
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodsetControllerDirectory" id="setControllerDirectory"><!-- --></a>
+<div class="evenrow">
+
+<div class="method-header">
+	<span class="method-title">setControllerDirectory</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 105]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>void setControllerDirectory(
+string
+$directory&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>setting controller's directory
+</strong></p>
+
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$directory:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Access:</strong>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+<br />
+
+<strong>Information Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Throws:</strong>&nbsp;&nbsp;</td><td>\Exception</td>
+  </tr>
+</table>
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodsetLayout" id="setLayout"><!-- --></a>
+<div class="oddrow">
+
+<div class="method-header">
+	<span class="method-title">setLayout</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 118]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>void setLayout(
+[null
+$layout = null]&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>setting layout
+</strong></p>
+
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">null</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$layout:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Access:</strong>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+<br />
+
+<strong>Information Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Throws:</strong>&nbsp;&nbsp;</td><td>\Exception</td>
+  </tr>
+</table>
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodsetPlugins" id="setPlugins"><!-- --></a>
+<div class="evenrow">
+
+<div class="method-header">
+	<span class="method-title">setPlugins</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 139]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>void setPlugins(
+[$plugins
+$plugins = null]&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>setting plugins
+</strong></p>
+
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">$plugins</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$plugins:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Access:</strong>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+<br />
+
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodsetRequest" id="setRequest"><!-- --></a>
+<div class="oddrow">
+
+<div class="method-header">
+	<span class="method-title">setRequest</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 159]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>void setRequest(
+<a href="Request.html">Request</a>
+$request&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>setting Request instance
+</strong></p>
+
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">$request</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$request:&nbsp;</span></td>
+				<td>
+				<span class="var-description"> Request</span>			</td></tr>
+				</table>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Access:</strong>&nbsp;&nbsp;</td><td>protected</td>
+  </tr>
+</table>
+<br />
+
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="method_dispatch" id="_dispatch"><!-- --></a>
+<div class="evenrow">
+
+<div class="method-header">
+	<span class="method-title">_dispatch</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 216]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>\lib\view\ViewAbstract _dispatch(
+<a href="Request.html">Request</a>
+$request&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>dispatching an HTTP request to a controller/action, after that dispatch controller/action to view
+</strong></p>
+
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type"><a href="Request.html">Request</a></span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$request:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Access:</strong>&nbsp;&nbsp;</td><td>private</td>
+  </tr>
+</table>
+<br />
+
+<strong>Information Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Throws:</strong>&nbsp;&nbsp;</td><td>\Exception</td>
+  </tr>
+</table>
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="method_dispatchAction" id="_dispatchAction"><!-- --></a>
+<div class="oddrow">
+
+<div class="method-header">
+	<span class="method-title">_dispatchAction</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 254]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>bool _dispatchAction(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>method to dispatch action
+</strong></p>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Access:</strong>&nbsp;&nbsp;</td><td>private</td>
+  </tr>
+</table>
+<br />
+
+<strong>Information Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Throws:</strong>&nbsp;&nbsp;</td><td>\Exception</td>
+  </tr>
+</table>
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="method_displayView" id="_displayView"><!-- --></a>
+<div class="evenrow">
+
+<div class="method-header">
+	<span class="method-title">_displayView</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 239]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>void _displayView(
+$view
+$view&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>displaying view
+</strong></p>
+
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">$view</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$view:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Access:</strong>&nbsp;&nbsp;</td><td>private</td>
+  </tr>
+</table>
+<br />
+
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="method_routePlugins" id="_routePlugins"><!-- --></a>
+<div class="oddrow">
+
+<div class="method-header">
+	<span class="method-title">_routePlugins</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 266]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>void _routePlugins(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>routing plugins
+</strong></p>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Access:</strong>&nbsp;&nbsp;</td><td>private</td>
+  </tr>
+</table>
+<br />
+
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="method__clone" id="__clone"><!-- --></a>
+<div class="evenrow">
+
+<div class="method-header">
+	<span class="method-title">__clone</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 291]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>void __clone(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>prevent to clone FrontController object
+</strong></p>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Access:</strong>&nbsp;&nbsp;</td><td>private</td>
+  </tr>
+</table>
+<br />
+
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+		</div>
+	</div>
+
+
+        <div class="credit">
+		    <hr class="separator" />
+		    Documentation generated on Tue, 16 Jun 2015 11:53:42 +0200 by <a href="http://www.phpdoc.org">phpDocumentor 1.4.3</a>
+	      </div>
+      </td></tr></table>
+    </td>
+  </tr>
+</table>
+
+</body>
+</html>
